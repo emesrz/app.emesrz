@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": ".",
+      "src": "./",
       "use": "@vercel/static-build"
     }
   ]
@@ -11,6 +11,5 @@
       "src": "/app/(.*)",
       "dest": "index.html"
     }
-  ]
-  
+  ]  
 }
