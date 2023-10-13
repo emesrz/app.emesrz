@@ -11,6 +11,5 @@
       "src": "/app/(.*)",
       "dest": "index.html"
     }
-  ]
-  
+  ]  
 }
