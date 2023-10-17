@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic"); */
 
 /*
 	Forty by HTML5 UP
@@ -31,6 +31,7 @@ footer, header, hgroup, section {
 
 body {
 	line-height: 1;
+	/* cursor: url('https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/48/22215-dog-icon.png'), auto; */
 }
 
 ol, ul {
@@ -153,7 +154,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
 		transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2000,7 +2001,6 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: #ffffff;
-			cursor: pointer;
 			display: inline-block;
 			font-weight: 300;
 			padding-left: 2.65em;
@@ -2276,7 +2276,6 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		cursor: default;
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
@@ -2286,6 +2285,7 @@ input, select, textarea {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
 		}
+
 
 		ul.actions.special {
 			-moz-justify-content: center;
@@ -2343,7 +2343,6 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -2368,7 +2367,6 @@ input, select, textarea {
 /* Pagination */
 
 	ul.pagination {
-		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -2516,200 +2514,20 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #ffffff;
+		box-shadow: inset 0 0 0 6px #ffffff;
 		color: #ffffff;
-		cursor: pointer;
 		display: inline-block;
-		font-size: .8em;
+		font-size: 1.3em;
 		font-weight: 600;
 		height: 3.5em;
 		letter-spacing: .25em;
 		line-height: 3.5em;
-		padding: 0 1.75em;
+		padding: 0 1em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		white-space: nowrap;
 	}
-
-		input[type="submit"]:hover, input[type="submit"]:active,
-		input[type="reset"]:hover,
-		input[type="reset"]:active,
-		input[type="button"]:hover,
-		input[type="button"]:active,
-		button:hover,
-		button:active,
-		.button:hover,
-		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
-		}
-
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		input[type="button"]:active,
-		button:active,
-		.button:active {
-			background-color: rgba(155, 241, 255, .1);
-			box-shadow: inset 0 0 0 2px #53e3fb;
-			color: #53e3fb;
-		}
-
-		input[type="submit"].icon:before,
-		input[type="reset"].icon:before,
-		input[type="button"].icon:before,
-		button.icon:before,
-		.button.icon:before {
-			margin-right: .5em;
-		}
-
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
-		button.fit,
-		.button.fit {
-			width: 100%;
-		}
-
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
-		button.small,
-		.button.small {
-			font-size: .6em;
-		}
-
-		input[type="submit"].large,
-		input[type="reset"].large,
-		input[type="button"].large,
-		button.large,
-		.button.large {
-			font-size: 1.25em;
-			height: 3em;
-			line-height: 3em;
-		}
-
-		input[type="submit"].next,
-		input[type="reset"].next,
-		input[type="button"].next,
-		button.next,
-		.button.next {
-			padding-right: 4.5em;
-			position: relative;
-		}
-
-			input[type="submit"].next:before, input[type="submit"].next:after,
-			input[type="reset"].next:before,
-			input[type="reset"].next:after,
-			input[type="button"].next:before,
-			input[type="button"].next:after,
-			button.next:before,
-			button.next:after,
-			.button.next:before,
-			.button.next:after {
-				-moz-transition: opacity .2s ease-in-out;
-				-webkit-transition: opacity .2s ease-in-out;
-				-ms-transition: opacity .2s ease-in-out;
-				transition: opacity .2s ease-in-out;
-				background-position: center right;
-				background-repeat: no-repeat;
-				background-size: 36px 24px;
-				content: '';
-				display: block;
-				height: 100%;
-				position: absolute;
-				right: 1.5em;
-				top: 0;
-				vertical-align: middle;
-				width: 36px;
-			}
-
-			input[type="submit"].next:before,
-			input[type="reset"].next:before,
-			input[type="button"].next:before,
-			button.next:before,
-			.button.next:before {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
-			}
-
-			input[type="submit"].next:after,
-			input[type="reset"].next:after,
-			input[type="button"].next:after,
-			button.next:after,
-			.button.next:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239bf1ff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
-				opacity: 0;
-				z-index: 1;
-			}
-
-			input[type="submit"].next:hover:after, input[type="submit"].next:active:after,
-			input[type="reset"].next:hover:after,
-			input[type="reset"].next:active:after,
-			input[type="button"].next:hover:after,
-			input[type="button"].next:active:after,
-			button.next:hover:after,
-			button.next:active:after,
-			.button.next:hover:after,
-			.button.next:active:after {
-				opacity: 1;
-			}
-
-			@media screen and (max-width: 1280px) {
-
-				input[type="submit"].next,
-				input[type="reset"].next,
-				input[type="button"].next,
-				button.next,
-				.button.next {
-					padding-right: 5em;
-				}
-
-			}
-
-		input[type="submit"].primary,
-		input[type="reset"].primary,
-		input[type="button"].primary,
-		button.primary,
-		.button.primary {
-			background-color: #ffffff;
-			box-shadow: none;
-			color: #242943;
-		}
-
-			input[type="submit"].primary:hover, input[type="submit"].primary:active,
-			input[type="reset"].primary:hover,
-			input[type="reset"].primary:active,
-			input[type="button"].primary:hover,
-			input[type="button"].primary:active,
-			button.primary:hover,
-			button.primary:active,
-			.button.primary:hover,
-			.button.primary:active {
-				background-color: #9bf1ff;
-				color: #242943 !important;
-			}
-
-			input[type="submit"].primary:active,
-			input[type="reset"].primary:active,
-			input[type="button"].primary:active,
-			button.primary:active,
-			.button.primary:active {
-				background-color: #53e3fb;
-			}
-
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
-			pointer-events: none;
-			cursor: default;
-			opacity: .25;
-		}
 
 /* Tiles */
 
@@ -2746,7 +2564,6 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			cursor: default;
 			height: 40vh;
 			max-height: 40em;
 			min-height: 23em;
@@ -3116,7 +2933,6 @@ input, select, textarea {
 		display: flex;
 		background-color: #2a2f4a;
 		box-shadow: 0 0 .25em 0 rgba(0, 0, 0, .15);
-		cursor: default;
 		font-weight: 600;
 		height: 3.25em;
 		left: 0;
@@ -3255,7 +3071,6 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
-		cursor: default;
 		height: 60vh;
 		margin-bottom: -3.25em;
 		min-height: 22em;
@@ -3275,12 +3090,12 @@ input, select, textarea {
 			-ms-transition-delay: .75s;
 			transition-delay: .75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #243843;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: .85;
+			opacity: .66;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3316,6 +3131,15 @@ input, select, textarea {
 					#banner > .inner header > :first-child:after {
 						max-width: 100%;
 					}
+					
+						#banner > div > header > h1 > a.blog{
+							cursor: url('../../images/cursor/link232.png'), auto;
+						}
+						#banner > div > header > h1 > a.docs{
+							cursor: url('../../images/cursor/link232.png'), auto;
+						}
+						
+
 
 			#banner > .inner .content {
 				display: -moz-flex;
@@ -3339,7 +3163,7 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: .7em;
+					font-size: 1.3em;
 					font-weight: 600;
 					letter-spacing: .25em;
 					text-transform: uppercase;
