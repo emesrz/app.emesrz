@@ -3130,14 +3130,18 @@ input, select, textarea {
 						max-width: 100%;
 					}
 					
+						/* 初始颜色设置 */
+						#banner > div > header > h1 > a.next.scrolly {
+							color: #9bf1ff;
+						}
+
 						#banner > div > header > h1 > a.blog{
 							cursor: url('../../images/cursor/link232.png'), auto;
 						}
+						
 						#banner > div > header > h1 > a.docs{
 							cursor: url('../../images/cursor/link232.png'), auto;
-						}
-						
-
+						}						
 
 			#banner > .inner .content {
 				display: -moz-flex;
@@ -3175,6 +3179,7 @@ input, select, textarea {
 			#banner.major.alt {
 				opacity: .75;
 			}
+
 
 		#banner.style1:after {
 			background-color: #6fc3df;

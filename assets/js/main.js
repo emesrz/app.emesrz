@@ -333,3 +333,21 @@
 			});
 
 })(jQuery);
+
+document.addEventListener("visibilitychange", () => {
+	const prefix = "再多一眼看一眼就会爆炸 | ";
+	// const prefix = "再近一点靠近点快被融化 | ";
+	const CurrentTitle = document.title;
+	let isHidden = false;
+	if (document.hidden) {
+		document.title = prefix + CurrentTitle;
+		console.log(document.title);
+		isHidden = true;
+	} else {
+		if (CurrentTitle.startsWith(prefix)) {
+			isHidden = false;
+		}
+		if(!isHidden)
+			document.title = CurrentTitle.substring(prefix.length);
+	}
+});
