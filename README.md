@@ -9,7 +9,7 @@
 
 ## 演示
 
-👉 访问在线站点：[app-emesrz.vercel.app](https://app-emesrz.vercel.app/)
+👉 访问在线站点：[app-emesrz.vercel.app](https://emesrz-app.vercel.app/)
 ## 授权协议
 
-本项目基于 HTML5 UP 的 [Forty 模板](https://html5up.net/forty)，遵循 [CC BY 3.0 许可证](https://html5up.net/license)。
+本项目基于 HTML5 UP 的 [Forty 模板](https://html5up.net/forty)，遵循 [CC BY 3.0 许可证](https://html5up.net/license)
